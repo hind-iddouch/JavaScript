@@ -1,0 +1,109 @@
+Angular is a JavaScript Framework that allows you to create Single-page Applications (SPAs).
+ It's written using the TypeScript language.
+Decorators:*****
+There are many built-in decorators are available in angular. Some of them are as follows:
+
+@NgModule
+ to define a module.
+
+@Component
+ to define components.
+
+@Injectable
+ to define services.
+
+@Input
+ and 
+@Output
+ to define properties, etc.
+
+@Input() & @Output Decorators:***
+@Input() decorator is used to define an input property on a component. 
+An input property is a value that is passed into a component from its parent component.
+@Output() decorator is used to define an output property on a component. 
+An output property is a value that is emitted from a component to its parent component.
+
+Parent component: a parent component can have one or more child components. 
+When a child component is created inside a parent component, 
+there may be a need to pass data between them. 
+For that we need to use @Input() & @Output() Decorators.
+
+
+Data Binding:= communication(TypeScript code(Business Logic) and Template(Html)********************************
+Data binding refers to the synchronization of data between a component and its template. 
+It allows you to pass data from the component to the template, 
+and vice versa, without having to write boilerplate code to manage the exchange of data.
+
+
+*************************************************************************
+
+Services:************
+services are a type of injectable class that provides functionality that can be shared across multiple components or other services in your application. 
+Services are used to encapsulate business logic, data access, and other functionality that is not directly related to rendering UI elements. 
+The Services in angular are injected into the application using the dependency injection mechanism.
+
+Why & When We Need To Services?
+ used in Angular when you need to encapsulate business logic, data access, or other functionality that is not directly related to rendering UI elements. 
+Data Access:if your application needs to communicate with an external API or fetch data from a database
+
+
+
+
+
+
+
+
+
+ RxJS (Reactive Extensions for JavaScript) is a library for reactive programming in JavaScript, and it is commonly used in Angular applications. RxJS provides a set of powerful tools for handling asynchronous operations, managing data streams, and responding to events in a reactive and composable manner
+
+Routing & Navigation:*********************
+The Angular Routing is a mechanism which is used for navigating between pages and displaying appropriate component or pages on the browser. 
+It allows you to define a navigation hierarchy for your application and handle user navigation between different views or pages.
+
+Routing is an essential feature in Angular as it allows you to create a single-page application (SPA) that can handle multiple views or pages without having to reload the entire page. 
+How To Use Routing In Angular?*********
+ng g c about
+
+What Is Active Router Link?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

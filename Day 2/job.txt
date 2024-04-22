@@ -1,0 +1,20 @@
+Profil recherché :
+
+De formation Bac +5 ;
+Une expérience de 4 ans min dans un poste similaire ;
+Une expérience en bases de données relationnelles MySQL (MySQL Workbench), PostgreSQL (pgAdmin) ;
+Une bonne maitrise des outils de tests unitaires et maitrise de leur élaboration de manière efficace ;
+Une excellente compréhension et expérience sur les technologies :
+- Backend : JAVA 11+, Spring Boot (Web, data-jpa, test, security), maven, IntelliJ/Eclipse.
+
+- Frontend : Angular 4+, React 16+, Typescript, Javascript ES6 2015+, VSCode/Webstorm, Html5, CSS3.
+
+- Transverse : Git, Git Worklow, Gitlab (developer side, merge request, pipeline, code review, branches), Sonar, SonarQube.
+
+- Connaissances de base de DevOps : Gitlab, Rancher et Docker, Jenkins.
+
+- Connaissances en : Clean Cosde, TDD, SOLID Principles, Design Pattern, SASS.
+
+Type d'emploi : Temps plein, CDI
+
+Salaire : 15.000,00DH à 20.000,00DH par mois

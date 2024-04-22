@@ -1,0 +1,238 @@
+What is Angular: ********
+Opensource Javascript Framework
+Created and maintained by Google
+Completely written in Typescript
+Best for developing Single Page Applications
+
+What is TypeScript:***
+Typescript is a Superset of Javascript
+Enhanced version of Javascript With additional features
+Gets compiled to Javascript at the end
+
+Components**********
+Basic building block
+Must have one root component
+Use to split bigger app to logical groups
+Typescript class With a special decorator
+ng generate component namecomponent OR ng g c namecomponent
+
+
+Data Binding******
+Comminucation between the typescript component and the html template.
+data binding devided into tree types: 
+Binding(String Interpolation/Property)(Ts to html)
+Event Binding(html to ts)
+Two way Binding (ts<=>html)  using [(ngModel)]
+
+
+Directives********
+Instructions in the DOM
+Components are also Directives
+Types of Directives:
+Structural Directives - modify the DOM (nglf, ngFor, ngSwitch)
+Attribute Directives - modify the properties of the DOM
+
+Attribute Directives********
+Modify the properties of DOM
+Most common attribute directives - ngClass & ngStyle
+
+Explore @Input and @Output ***
+communication between components (component A and comp B)
+
+What is an Angular Service?******
+is just ts class which is mainy used for sharing data or functionality
+Typescript class used for sharing data or functionality
+No need to specify any decorator
+Need to provide the service
+Service can be injected into another service
+ng generate service nameserv or ng g s namederv
+
+
+Template Reference Variable*****
+
+A template reference variable or a local reference
+variable is a variable which we add in any html element using # as the first character.
+Using template reference variable we can access
+the dom elements and their properties easily.
+But, template reference can be used only in
+the HTML template.
+In order to access that in the typescript
+component we need to explicitly pass the reference to Typescript through an event in the html
+template. But sometimes we need to get access to the
+DOM before we trigger an event in HTML. For that type of usecase, we can use @ViewChild.
+
+Also known as Local Reference Variable
+Can be added to any element in DOM
+Need to be passed to use it in typescript component
+Using @Viewchild we can access the element in typescript
+@ViewChild decorator should be imported from
+angular core package and it accepts two parameter.First one is a mandatory parameter in which
+we need to provide the template reference variable name and the second parameter is
+an optional parameter.
+
+Lifecycle Hooks******
+Components and Directives have Lifecycle Hooks
+Components have more Lifecycle Hooks than Directives
+These are the common lifecycle hooks available
+in both components and directives: ngOnlnlt
+ngOnChanges
+ngDoCheck 
+ngDestroy (if we need any cleaning activities we can do it in OnDestroy.)
+and these are the lifecycle hooks available only in
+components to be more specific we can say in children components: ngAfterContentlnit
+ngAfterContentChecked
+ngAfterVlewlnit
+ngAfterViewChecked
+Constructor is not a Lifecycle Hook
+it is a Typescript Feature
+
+Routing *****
+routing means Navigating between pages 
+
+Template Driven Forms****
++FORMS:Collect data from users(Forms in general are used to collect data
+from users Some applications use forms to enable users to log in, to register, to update
+a profile and more) 
++Two types of form in Angular
+- Template Driven Forms ( Easy to create | Logic in Template | Suitable for simple forms )
+- Model Driven forms (Reactive Forms)( Logic in Component | Robust, Scalable, Reusable & Testable
+| Suitable for complex forms )
+
+
+
+HTTP****
+API is a software intermediary or a messenger
+which helps to talk to different application or database
+
+
+
+NOTE***
+The Angular directive used for conditional rendering of elements based on a condition is:
+
+ngIf
+
+The ngIf directive is used to conditionally render elements in the Angular template based on a given expression. If the expression evaluates to true, the element and its children are rendered; otherwise, they are removed from the DOM. This allows for dynamic rendering of content based on the state or conditions in the component.
+*****
+
+
+When using programmatic navigation in Angular and you need to access the Router service in a component, you should import:
+
+Router
+
+The Router service is used for programmatic navigation in Angular applications. It provides methods to navigate between different routes programmatically. To access this service in a component, you need to import it from the @angular/router package:
+
+
+import { Router } from '@angular/router';
+
+*****
+The type of data binding used to set an element's property to a value from the component class is:
+
+Property binding
+
+Property binding is used to set an HTML element's property to a value from the component class. This is achieved by enclosing the property within square brackets ([]) in the template, followed by an expression that resolves to the value you want to bind. For example:
+<img [src]="imageUrl">
+*****
+Angular follows a semantic versioning scheme where major versions indicate major changes and potential breaking changes.
+******
+A service can be injected into an Angular component:
+
+By including the service in the component's constructor parameters.
+*******
+In Angular animations, a transition refers to:
+
+The animation effect between two states or conditions.
+******
+You can display data received from the server in an Angular component's template by:
+
+By binding the data to HTML elements using interpolation or property binding.
+*******
+In a template-driven form in Angular, you handle form submission and validation by:
+
+By subscribing to the (ngSubmit) event and using template references.
+
+<form (ngSubmit)="onSubmit()" #myForm="ngForm">
+  <input type="text" name="username" ngModel required>
+  <button type="submit">Submit</button>
+</form>
+*******
+The type of directive in Angular used to change the appearance or behavior of an element, component, or another directive is:
+
+Attribute directives.
+*******
+To navigate to a specific route with parameters programmatically in Angular, you should use:
+this.router.navigate(['/users', 123])
+This syntax specifies the route path as an array where the first element is the route path and subsequent elements are the parameters. In this example, it navigates to the '/users' route with the 'id' parameter set to 123.
+
+*******
+The primary use case for observables in Angular applications is:
+
+Handling asynchronous operations like HTTP requests.
+*******
+
+The correct example of an animation state in Angular is:
+state("visible", style({ opacity: 1 }))
+*******
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
